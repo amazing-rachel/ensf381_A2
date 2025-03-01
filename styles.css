@@ -10,7 +10,7 @@ header {
 }
 
 header h1 {
-    margin:20px, 0, 20px, 0;
+    padding: 10px;
     color: white;
 }
 
@@ -28,6 +28,7 @@ nav {
 }
 
 nav a {
+    padding: 10px;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -49,8 +50,14 @@ main h2 {
     color: #004080;
 }
 
-main p { 
-    font-weight: bold;
+ul { 
+    list-style: '- ' inside;
+    padding-left: 0;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 15px;
 }
 
 footer {

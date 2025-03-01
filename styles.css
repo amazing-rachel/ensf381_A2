@@ -7,10 +7,11 @@ header {
     padding: 20px;
     margin: 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    padding: 10px;
     color: white;
 }
 
@@ -20,9 +21,10 @@ header img {
     height: 100px;
 }
 
-nav {
+div nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #003366;
     padding: 10px;
 }
@@ -32,7 +34,6 @@ nav a {
     color: white;
     text-decoration: none;
     text-align: center;
-    
 }
 
 nav a:hover {
@@ -41,13 +42,21 @@ nav a:hover {
 
 main {
     background-color: #d4d4d4;
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
 }
 
-main h2 {
+main #about {
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+main #about h2 {
     color: #004080;
+    padding-top: 10px;
+}
+
+.about_bold {
+    font-weight: bold;
 }
 
 ul { 
@@ -59,6 +68,124 @@ ul {
 ul li {
     margin-bottom: 15px;
 }
+
+.other_h2{
+    color: #004080;
+    margin: 0;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+main form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(195, 193, 193);
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 10px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+
+#username, #password {
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: darkgrey;
+    border-width: 3px;
+    width: 20%;
+}
+
+main button {
+    background-color: #008000;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+main button:hover{
+    background-color: #006600;
+}
+
+main a {
+    color: #004080;
+    text-decoration: none;
+}
+
+main div {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+    
+main a:hover{
+    text-decoration: underline;
+}
+
+.login_end label {
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 100%;
+
+}
+
+#term {
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.term-container select, .term-container label{
+    display: inline;
+}
+
+
+
+.term {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.term label {
+    margin-right: 10px; 
+}
+
+
+.Enrolled h2{
+    color: #004080;
+    margin: 0;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.Enrolled div {
+    background-color: #e6f2ff;
+    box-shadow: 15px 15px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+
+
 
 footer {
     display: flex;

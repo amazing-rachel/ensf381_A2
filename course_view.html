@@ -15,7 +15,7 @@
         </nav>
     </div>
     <main>
-        <h2 class="other_h2">LMS - Course View</h2>
+        <!-- <h2>LMS - Course View</h2> -->
         <div class="container">
         <label for="term">Select Term:</label>
         <select id="term" name="term">
@@ -27,8 +27,6 @@
         </div>
         
         <section class="Enrolled">
-			<!-- Courses in which the student is enrolled -->
-            <!-- Display Course 1, 2, and 3 in the same line -->
             <h2>Enrolled Courses</h2>
             <hr>
             <table>
@@ -58,7 +56,6 @@
                         </div>
 					</td>
 				</tr>
-				<!-- Display Course 4 and 5 in the same line -->
 				<tr>
 					<td>
 						<div>
@@ -96,8 +93,8 @@
                             <img src="course2.jpg" alt="Course 2" width="250">
                             <p>Course Name: Data Science</p>
                             <p>Course Code: DS102</p>
-                            <button style="background-color: rgb(153, 255, 153);">Accept</button>
-                            <button style="background-color: rgb(252, 133, 133);">Decline</button>
+                            <button class="accept">Accept</button>
+                            <button class="decline">Decline</button>
                         </div>
                     </td> 
                     <td>
@@ -105,8 +102,8 @@
                             <img src="course2.jpg" alt="Course 2" width="250">
                             <p>Course Name: Machine Learning</p>
                             <p>Course Code: ML105</p>
-                            <button style="background-color: rgb(153, 255, 153);">Accept</button>
-                            <button style="background-color: rgb(252, 133, 133);">Decline</button>
+                            <button class="accept">Accept</button>
+                            <button class="decline">Decline</button>
                         </div>
                     </td> 
                 </tr>

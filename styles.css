@@ -155,7 +155,7 @@ main form {
     width: 100%;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .container select {
@@ -179,18 +179,23 @@ select {
     margin-right: 10px; 
 }
 
+.Enrolled {
+    padding: 20px;
+}
 
 .Enrolled h2{
     color: #004080;
     margin: 0;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .Enrolled table {
-    width: 100%;
     text-align: center;
+    align-items: center;
     border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .Enrolled div {

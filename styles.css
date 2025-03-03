@@ -245,3 +245,146 @@ select {
 .decline:hover {
     background-color: #821b1b;
 }
+
+.quiz_banner {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.quiz_details {
+    background-color: lightblue; 
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.quiz_details h2 {
+    color: #004080; 
+}
+
+.quiz_questions {
+    text-align: center;
+    align-items: center;
+}
+
+.quiz_options {
+    background-color: #cacaca; 
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 1px;
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
+    align-items: center;
+}
+
+.quiz_options label {
+    color: #333;
+    display: inline-block; 
+    padding: 5px;
+}
+
+.submit_button {
+    background-color: lightblue; 
+    color: black; 
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+}
+
+.submit_button:hover {
+    background-color: #004080;
+    color: white; 
+}
+
+.finish_button {
+    background-color: #D32F2F; 
+    color: white; 
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration:none;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-left: 570px;
+
+}
+
+.finish_button:hover {
+    background-color: #821b1b; 
+}
+
+.leaderboard {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #cacaca;
+}
+
+.leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+
+}
+
+.leaderboard_header {
+    background-color: #4CAF50;
+    color:white;
+}
+
+.leaderboard th {
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 10px;
+    padding: 2px;
+}
+
+.leaderboard tr {
+    border: 1px solid white;
+    height: 10px;
+}
+
+.leaderboard td {
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.first_place {
+    background-color: #FFD700;
+}
+
+.second_place {
+    background-color: #C0C0C0;
+}
+
+.third_place {
+    background-color: #CD7F32;
+}
+
+.light_row {
+    background-color: #f9f9f9;
+}
+
+.dark_row {
+    background-color: #e4e2e2;
+}
+
+.leaderboard img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}

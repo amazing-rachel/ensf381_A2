@@ -305,7 +305,6 @@ main .course_view {
     margin: 5px auto;
     border-radius: 1px;
     text-align: left;
-    margin-left: 455px;
     align-items: center;
     width: 335px;
 }
@@ -322,6 +321,8 @@ main .course_view {
 }
 
 .submit_button {
+    display: block;
+    margin: 20px auto;
     background-color: lightblue; 
     color: black; 
     padding: 12px 20px;
@@ -329,7 +330,7 @@ main .course_view {
     border: none;
     border-radius: 5px;
     display: block;
-    margin: 20px auto;
+    align-items: center;
     width: 150px;
 }
 
@@ -339,6 +340,8 @@ main .course_view {
 }
 
 .finish_button {
+    display: block;
+    margin: 20px auto;
     background-color: #D32F2F; 
     color: white; 
     padding: 12px 20px;
@@ -348,7 +351,6 @@ main .course_view {
     text-decoration:none;
     margin-bottom: 40px;
     align-items: center;
-    margin-left: 570px;
 }
 
 .finish_button:hover {

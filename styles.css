@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+/* Header */
 header {
     background-color: #004080;
     padding: 20px;
@@ -23,6 +24,12 @@ header img {
     height: 100px;
 }
 
+/* Main */
+main {
+    background-color: #d4d4d4;
+}
+
+/* Navigation Bar */
 div nav {
     display: flex;
     justify-content: space-around;
@@ -42,19 +49,14 @@ nav a:hover {
     text-decoration: underline; 
 }
 
-main {
-    background-color: #d4d4d4;
-    margin: 0;
-    padding: 0;
-}
-
-main #about {
+/* Index */
+main .about {
     text-align: center;
     padding: 20px;
-    margin: 0px;
+    background-color: #d4d4d4;
 }
 
-main #about h2 {
+main .about h2 {
     color: #004080;
     text-align: center;
     padding-top: 10px;
@@ -74,6 +76,7 @@ ul li {
     margin-bottom: 15px;
 }
 
+/* Footer */
 footer {
     display: flex;
     background-color: #004080;
@@ -86,7 +89,8 @@ footer p {
     color: white;
 }
 
-.other_h2{
+/* Login */
+main .login h2{
     color: #004080;
     margin: 0;
     text-align: center;
@@ -148,6 +152,7 @@ main form {
     text-decoration: none;
 }
 
+/* Course view */
 .container {
     display: flex;
     justify-content: center;
@@ -177,6 +182,10 @@ select {
 
 .term label {
     margin-right: 10px; 
+}
+
+main .course_view {
+    background-color: #d4d4d4;
 }
 
 .Enrolled {
@@ -246,6 +255,12 @@ select {
     background-color: #821b1b;
 }
 
+/* Attempt quiz */
+.quiz {
+    text-align:center;
+    align-items: center;
+}
+
 .quiz_banner {
     width: 100%;
     height: 150px;
@@ -266,6 +281,11 @@ select {
 
 .quiz_details h2 {
     color: #004080; 
+    margin: 10px;
+}
+
+.quiz_details p {
+    margin: 10px;
 }
 
 .quiz_questions {
@@ -282,12 +302,18 @@ select {
     margin-left: 400px;
     margin-right: 400px;
     align-items: center;
+    width: 300px;
 }
 
 .quiz_options label {
     color: #333;
     display: inline-block; 
     padding: 5px;
+}
+
+.quiz button {
+    text-align: center;
+    align-items: center;
 }
 
 .submit_button {
@@ -316,32 +342,32 @@ select {
     border-radius: 5px;
     text-decoration:none;
     margin-bottom: 40px;
-    align-items: center;
-    margin-left: 570px;
-
 }
 
 .finish_button:hover {
     background-color: #821b1b; 
 }
 
+/* Leaderboard */
 .leaderboard {
-    margin-top: 50px;
-    margin-bottom: 30px;
     text-align: center;
-    background-color: #cacaca;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: d4d4d4d4
 }
 
 .leaderboard table {
     width: 100%;
     border-collapse: collapse;
     border: 1px solid white;
-
+    text-align: center;
+  
 }
 
-.leaderboard_header {
+.leaderboard .leaderboard_header {
     background-color: #4CAF50;
     color:white;
+    font-size: 30px;
 }
 
 .leaderboard th {

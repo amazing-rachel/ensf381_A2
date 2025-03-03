@@ -262,11 +262,15 @@ main .course_view {
 }
 
 .quiz_banner {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.quiz img {
     width: 100%;
     height: 150px;
-    border-radius: 5px;
-    max-width: 95%;
-    margin: 0 auto;
+    border-radius: 5px;   
 }
 
 .quiz_details {
